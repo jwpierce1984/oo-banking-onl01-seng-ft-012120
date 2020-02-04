@@ -15,7 +15,7 @@ attr_reader :sender, :receiver, :amount, :status
   def execute_transaction
     sender.balance -= amount
     receiver.balance += amount
-    self.status = "complete"
+    @status = "complete"
   end
 
 end
