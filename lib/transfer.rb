@@ -27,6 +27,7 @@ attr_reader :sender, :receiver, :amount, :status
   def reverse_transfer
     sender.balance += amount
     receiver.balance -= amount
+    @status = "reversed"
     
   end
 
