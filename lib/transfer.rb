@@ -24,5 +24,6 @@ attr_reader :sender, :receiver, :amount, :status
     end
   end
   
+  def reverse
 
 end
