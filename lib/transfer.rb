@@ -11,5 +11,9 @@ attr_reader :sender, :receiver, :amount, :status
   def valid?
     sender.valid? && receiver.valid?
   end
+  
+  def execute_transaction
+    
+  end
 
 end
