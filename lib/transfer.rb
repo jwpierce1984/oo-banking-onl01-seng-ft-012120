@@ -23,5 +23,6 @@ attr_reader :sender, :receiver, :amount, :status
       "Transaction rejected. Please check your account balance."
     end
   end
+  
 
 end
