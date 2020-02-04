@@ -7,5 +7,9 @@ attr_reader :sender, :receiver, :amount, :status
     @amount = amount
     @status = "pending"
   end
+  
+  def valid?
+    self.sender.status == "valid" && self.receiver.status == "valid"
+  end
 
 end
