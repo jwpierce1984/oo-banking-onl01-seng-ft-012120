@@ -9,7 +9,7 @@ attr_reader :sender, :receiver, :amount, :status
   end
   
   def valid?
-    sender.valid && receiver.valid
+    sender.valid? && receiver.valid?
   end
 
 end
