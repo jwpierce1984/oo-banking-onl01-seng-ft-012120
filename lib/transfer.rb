@@ -24,6 +24,9 @@ attr_reader :sender, :receiver, :amount, :status
     end
   end
   
-  def reverse
+  def reverse_transfer
+    
+    
+  end
 
 end
