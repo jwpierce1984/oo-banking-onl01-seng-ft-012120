@@ -18,8 +18,7 @@ attr_reader :sender, :receiver, :amount, :status
       sender.balance -= amount
       receiver.balance += amount
       @status = "complete"
-    else
-      re
+    end
   end
 
 end
